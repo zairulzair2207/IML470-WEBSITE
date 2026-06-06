@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: white;
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  border-bottom: 3px solid darkblue;
+  padding-bottom: 5px;
+}
+
+h2 {
+  color: darkblue;
+  border-bottom: 1px solid darkblue;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+body.home{ background-color: lightblue; }
+body.resume { background-color: lightyellow; }
+body.School Background { background-color: lightpink; }
+body.gallery { background-color: lightgreen; }
+body.Hobbies { background-color: lavender; }
+body.Skill{ background-color: #f0f0f0; }
+body.My Experience{ background-color: #f0f0f0; }
+body.Contact{ background-color: #f0f0f0; }
